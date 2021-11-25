@@ -3,3 +3,8 @@
 ### It doesnt look the best
 
 I am still learning CSS and all the stuff you can do it, this is was a easy app that I made
+
+
+
+
+###### Hosted on [Reminders](https://www.reminders.makashi.dev)
