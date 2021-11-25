@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="weater.css" rel="stylesheet" />
+    <title>Reminder</title>
+</head>
+
+<body class="grid">
+    <div class="container">
+        <button id="get">Get</button>
+        <button id="add">Add</button>
+        <button id="delete">Delete</button>
+        <div id="add-Reminder" style="display: none">
+            <input type="text" id="title" placeholder="Title" />
+            <input type="text" id="description" placeholder="Description" />
+
+            <button id="submit">Submit</button>
+        </div>
+        <div id="reminders" style="display: none"></div>
+
+        <div id="delete-Reminder" style="display: none">
+            <input type="text" id="id" placeholder="ID" />
+            <button id="delete-submit">Submit</button>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>

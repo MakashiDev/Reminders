@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+html {
+    background: url(https://source.unsplash.com/1600x900/?landscape,forest) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: .5s ease-in-out;
+    font-family: 'Spectral', serif;
+}
+
+button {
+    background: #0000008c;
+    border: none;
+    outline: none;
+    color: #0E7AFE;
+    border-radius: 10px;
+    margin: 0 .5vw;
+    padding: 3px 7px;
+    transition: .5s ease-in-out;
+}
+
+button:hover {
+    background: #000000ba;
+}
+
+.container {
+    font-family: 'Spectral', serif;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px black;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 30px;
+    background: #000000ad;
+    transition: .5s ease-in-out;
+}
+
+input {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+    border-radius: 8.5px;
+    border: none;
+    font-family: 'Spectral', serif;
+    background-color: #0000008c;
+    color: white;
+}
+
+#add-Reminder {
+    display: none;
+}
+
+#reminders {
+    border: 3px black;
+    border-style: solid;
+    padding: 15px 45px 15px 15px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+#reminders:hover {
+    border: 3px solid #ddd;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    border-color: rgb(58, 62, 65);
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 0px 1px;
+    color: rgb(232, 230, 227);
+}
+
+#delete-Reminder {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgb(25, 27, 28);
+    border-color: rgb(58, 62, 65);
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 0px 1px;
+    color: rgb(168, 160, 149);
+}
+
+#submit {
+    display: block;
+}
