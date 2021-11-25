@@ -1,7 +1,9 @@
 document.getElementById("delete-submit").onclick = function() {
     deleteReminder();
 };
-
+document.getElementById("submit").onclick = function () {
+	addReminder();
+}
 document.getElementById("add").onclick = function() {
     document.getElementById("add-Reminder").style.display = "block";
     document.getElementById("reminders").style.display = "none";
